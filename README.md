@@ -8,3 +8,4 @@ for any input**.
           
 This results in a probability between 0 and 1 of belonging in the 1 class( binary classification : 0 or 1 )
 We can then cut a cutoff point at 0.5, below which everything belongs to class 0.
+
