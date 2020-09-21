@@ -8,3 +8,18 @@ for any input**.
           
 This results in a probability between 0 and 1 of belonging in the 1 class( binary classification : 0 or 1 )
 We can then cut a cutoff point at 0.5, below which everything belongs to class 0.
+
+# Confusion Matrix
+
+We evaluate the model performace using a **confusion matrix**.
+**Confusion Matrix** is a table that is often used to describe the performance of a classification model on a set of test data for which 
+the true values are known. It allows the visualization of the performance of an algorithm.
+    
+|    . | Predicted NO | Predicted YES|
+|------| -------------|---------------|
+|Actual NO| TN | FP |
+|Actual YES | FN | TP |
+
+Accuracy =    ( TP + TN ) / ( TP + FP + TN + FN )
+
+
