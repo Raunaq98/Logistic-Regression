@@ -24,9 +24,12 @@ Accuracy =    ( TP + TN ) / ( TP + FP + TN + FN )
 
 # Limitations
 
-                    Two-Class Problems : Logistic regression is intended for two-class or binary classification problems. 
-                    It can be extended for multi-class classification, but is rarely used for this purpose.
+                    Two-Class Problems : Logistic regression is intended for two-class or binary 
+                    classification problems. It can be extended for multi-class classification,
+                    but is rarely used for this purpose.
 
-                    Unstable With Well Separated Classes :  Logistic regression can become unstable when the classes are well separated.
+                    Unstable With Well Separated Classes :  Logistic regression can become unstable 
+                    when the classes are well separated.
 
-                    Unstable With Few Examples : Logistic regression can become unstable when there are few examples from which to estimate the parameters.
+                    Unstable With Few Examples : Logistic regression can become unstable when 
+                    there are few examples from which to estimate the parameters.
